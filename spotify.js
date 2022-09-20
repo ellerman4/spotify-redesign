@@ -62,10 +62,6 @@ style.innerHTML = `
         display: none;
     }
 
-    .volume-bar.ExuDUBJ7bk8vT6INnm9F {
-        justify-content: flex-start !important;
-    }
-
     .koyeY6AgGRPmyPITi7yO.qJOhHoRcFhHJpEQ2CwFT {
         top: 0px !important;
     }
@@ -81,8 +77,17 @@ style.innerHTML = `
     .Button-y0gtbx-0.cuhCvm.Upqw01TOXETOmR5Td7Dj {
         display: none;
     }
-    .ql0zZd7giPXSnPg75NR0.pfMoD1MbelMuF1m8QeMc {
+    
+    button[data-testid="top-bar-forward-button"] {
         display: inline-flex !important;
+    }
+
+    div[data-testid="tracklist-row"] {
+        height: 75px;
+    }
+
+    div[data-testid="topbar-content"] {
+        display: none;
     }
     `;
 
