@@ -7,6 +7,7 @@ setTimeout(function(){
         // Then remove the entire navbar
         document.getElementsByClassName('RSg3qFREWrqWCuUvDpJR')[0].appendChild(document.getElementsByClassName('odcjv30UQnjaTv4sylc0')[0]); // 'odcjv30UQnjaTv4sylc0' == Profile Dropdown
         document.getElementsByClassName('Root__now-playing-bar')[0].appendChild(document.getElementsByClassName('RSg3qFREWrqWCuUvDpJR')[0]); // 'RSg3qFREWrqWCuUvDpJR' == List of nav buttons
+        document.getElementsByClassName('RSg3qFREWrqWCuUvDpJR')[0].appendChild(document.getElementsByClassName('VgSbatGBB9XwTH2_dsxg')[0]); // 'VgSbatGBB9XwTH2_dsxg' == Back/Forth buttons
         document.getElementsByTagName('nav')[0].remove();
         console.log('test');
     }
@@ -79,6 +80,9 @@ style.innerHTML = `
 
     .Button-y0gtbx-0.cuhCvm.Upqw01TOXETOmR5Td7Dj {
         display: none;
+    }
+    .ql0zZd7giPXSnPg75NR0.pfMoD1MbelMuF1m8QeMc {
+        display: inline-flex !important;
     }
     `;
 
