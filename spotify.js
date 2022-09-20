@@ -47,7 +47,6 @@ style.innerHTML = `
     }
     .Root__top-bar {
         justify-self: center;
-        display: none;
     }
     .GD2gbRtcs5dOjMGAM_Y4 {
         flex-direction: row;
@@ -68,6 +67,18 @@ style.innerHTML = `
 
     .koyeY6AgGRPmyPITi7yO.qJOhHoRcFhHJpEQ2CwFT {
         top: 0px !important;
+    }
+
+    .Type__TypeElement-goli3j-0.igMXER {
+        font-size: 1.95rem;
+    }
+
+    .T1xI1RTSFU7Wu94UuvE6 {
+        display: none;
+    }
+
+    .Button-y0gtbx-0.cuhCvm.Upqw01TOXETOmR5Td7Dj {
+        display: none;
     }
     `;
 
