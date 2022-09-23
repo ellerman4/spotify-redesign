@@ -86,9 +86,14 @@ style.innerHTML = `
         height: 75px;
     }
 
-    div[data-testid="topbar-content"] {
+    .Root__now-playing-bar {
+        position: fixed;
+        bottom: 0;
+    }
+    .mVVxN9ZfIRjiQfDuzPCZ {
         display: none;
     }
+
     `;
 
 // Append style element to head of the document
