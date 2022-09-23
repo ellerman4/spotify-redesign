@@ -35,15 +35,15 @@ style.innerHTML = `
         justify-content: center;
         padding: 2px;
         position: relative;
-        margin-inline: 10px;
-        margin-bottom: 10px;
+        margin-inline: 22px;
+        margin-bottom: 5px;
         border-radius: 13px;
     }
     
     .GD2gbRtcs5dOjMGAM_Y4 {
         border-radius: 13px;
-        margin-bottom: 10px;
-        margin-inline: 10px;
+        margin-bottom: 5px;
+        margin-inline: 22px;
 
     }
     .Root__top-bar {
